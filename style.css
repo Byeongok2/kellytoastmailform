@@ -1,0 +1,56 @@
+body {
+  margin: 2em;
+}
+aside {
+    background:white; /* same color as selected state on site menu */
+    border: rgb(255, 138, 187) solid 3px;
+    padding: 0.3em 1em;
+    border-radius: 3px;
+    color: gray;
+    margin-bottom: 2em;
+}
+textarea {
+  width: 100%;
+}
+.content-head {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em;
+}
+.is-center {
+  text-align: center;
+}
+.button-success {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(255, 138, 187); /* this is a green */
+}
+.button-xlarge {
+  font-size: 125%;
+}
+button {
+  float: right;
+}
+#name, #email, #phone{
+  width: 50%;
+}
+.honeypot-field {
+  display: none;
+}
+
+fieldset {
+  margin-left: 30%;
+}
+
+.pg {
+  margin-bottom: 2rem; 
+}
+
+.cardgotohome {
+  background-image: url("./card-1.png");
+  width: 100%;
+  height: auto;
+
+}
