@@ -124,7 +124,7 @@
     <div class="thankyou_message" style="display:none;">
       <h2 style="text-align:center;">성공적으로 제출되었습니다. 담당자 확인 후 빠르게 연락드리겠습니다.</h2>
         <div class="cardgotohome">
-          <a href="https://kellyfnc.com/index.html/">
+          <a window.parent.location.href="https://kellyfnc.com/">
           <img class="cardgotohome" src="./card-1.png" alt="">
         </a>
 
@@ -138,6 +138,14 @@
   <!-- Submit the Form to Google Using "AJAX" -->
   <script data-cfasync="false" src="form-submission-handler.js"></script>
 <!-- END -->
+<script type="text/javascript">
 
+  pagemove = function(target) {
+ 
+ window.parent.location.href = target;
+ 
+ };
+ 
+ </script>
 </body>
 </html>
